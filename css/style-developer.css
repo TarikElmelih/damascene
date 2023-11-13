@@ -1,0 +1,317 @@
+body,
+html {
+    background-image: url('../images/Wireframe.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* تخصيص الهيدر والذيل */
+.header,
+.footer {
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+}
+
+/* تخصيص العنوان */
+h1 {
+    font-size: 36px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* ارتفاع 100% من ارتفاع العرض الرأسي للشاشة */
+}
+
+
+.upper {
+    position: relative;
+    background: #F6C93B;
+    border-top-left-radius: 42px;
+    border-top-right-radius: 42px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+
+.tex {
+    text-align: Center;
+    height: 90%;
+}
+
+.lower {
+    background: #fff;
+    display: inline-block;
+
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+}
+
+.icon {
+    font-size: 24px;
+    /* حجم الأيقونات حسب الحاجة */
+    padding: 0px 7px;
+
+}
+
+.card {
+    width: 300px;
+    /* حجم البطاقة الافتراضي حسب الحاجة */
+    text-align: center;
+    margin: 10px;
+    /* تضبيط المسافة بين البطاقات حسب الحاجة */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 428.74px;
+    background: white;
+    border-radius: 41px
+}
+
+.back {
+    width: 19%;
+    height: 7%;
+    background: rgba(217, 217, 217, 0.62);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 0px;
+    float: right;
+
+}
+
+.back a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 25.29px;
+    word-wrap: break-word;
+
+}
+
+.back:hover {
+    transform: scale(1.1);
+    /* زيادة حجم الزر بنسبة 10% عند التأشير */
+    box-shadow: 0px 0px 4px rgba(12, 34, 229, 0.25);
+
+}
+
+.details {
+    display: inline-flex;
+    margin-left: 5px;
+
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 35.12px;
+    word-wrap: break-word;
+    margin-left: 20px;
+    /* تباعد بين الصورة والنص */
+}
+
+.header-content img {
+    max-width: 100px;
+    /* تحديد الحد الأقصى لعرض الصورة (حسب الحاجة) */
+    height: auto;
+    /* السماح للصورة بالتكيف مع عرضها */
+}
+
+.title {
+
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 35.12px;
+    margin-bottom: 30px;
+}
+
+/* تخصيص محتوى الهيدر */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.box {
+
+    width: 140px;
+    height: 69.15px;
+    background: white;
+    border-radius: 1px;
+    border: 2px white solid;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 38%, 5% 39%, 0 65%, 0 31%, 0 37%);
+    color: #0375FA;
+    font-size: 27px;
+    font-family: DIN Next LT Arabic;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 24.57px;
+    word-wrap: break-wordك
+}
+
+.tit1 {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 27.75px;
+    margin-top: -15px;
+}
+
+.tit2 {
+    width: 173.02px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 27.75px;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 4px #0375FA;
+    /* تحديد لون حواف النص بالأزرق */
+
+
+
+}
+
+.icons a:hover {
+    transform: scale(1.1);
+    /* زيادة حجم الزر بنسبة 10% عند التأشير */
+
+
+
+}
+
+.upper img {
+    width: 60%;
+    height: 100%;
+    margin: 73px -30px 0px -16px;
+
+}
+
+.upper img:hover {
+    transform: scale(1.1);
+    /* زيادة حجم الزر بنسبة 10% عند التأشير */
+
+    -webkit-filter: sepia(100%);
+
+    -moz-filter: sepia(100%);
+
+    -o-filter: sepia(100%);
+
+    filter: sepia(100%);
+
+
+
+}
+
+.lower p {
+    width: 100%;
+    height: 30%;
+    border-radius: 5px;
+    border: 1px #0375FA solid;
+    text-align: center;
+    color: #0375FA;
+    font-size: 25px;
+    font-family: DIN Next LT Arabic;
+    font-weight: 700;
+    text-transform: lowercase;
+    line-height: 41.12px;
+    word-wrap: break-wordl
+}
+
+.lower p:hover {
+    border: 1px rgb(226, 225, 225) solid;
+    color: white;
+    background-color: #0375FA;
+}
+
+
+@media (max-width: 1200px) {
+    .back {
+        width: 50%;
+        height: 7%;
+        background: rgba(217, 217, 217, 0.62);
+        border-radius: 8px;
+        text-align: center;
+        padding: 10px 0px;
+        float: right;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        /* توجيه العناصر بشكل عمودي */
+        align-items: center;
+        /* وسط العناصر أفقيًا */
+        text-align: center;
+        /* وسط النص أفقيًا */
+    }
+
+    .header-content img {
+        max-width: 100%;
+        /* للتأكد من عدم تجاوز الصورة حجم الشاشة */
+    }
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* جعل العناصر تظهر عموديًا */
+    }
+
+    .content {
+        flex: 1;
+        /* جعل الكروت تمتد لامتلاء الارتفاع العمودي */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card {
+        width: 300px;
+        text-align: center;
+        margin: 10px;
+        height: 428.74px;
+        background: white;
+        border-radius: 41px
+    }
+
+    .footer {
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+}

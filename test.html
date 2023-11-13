@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تغيير محتوى النص في الإدخال</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="myInput" value="أدخل نصًا هنا">
+        <button type="button" onclick="changeText()">القبول</button>
+    </form>
+
+    <script >
+        function changeText() {
+    // احصل على عنصر الإدخال
+    var inputElement = document.getElementById("myInput");
+
+    // غير محتوى الإدخال إلى "يرجى الانتظار"
+    inputElement.value = "يرجى الانتظار...";
+}
+    </script>
+</body>
+</html>
